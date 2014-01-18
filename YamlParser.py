@@ -25,7 +25,6 @@ class YamlParser:
                     for partie in persons:
                         if partie.name in pay['parties']:
                             payment.add_partie(partie)
-                    owner.add_payment(payment)
                     payments.append(payment)
 
         return {'persons': persons, 'payments': payments}
