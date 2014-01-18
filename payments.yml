@@ -1,0 +1,10 @@
+persons:
+  - Foo
+  - Bar
+  - Baz
+
+payments:
+    - { amount: 12.12, parties: [ Foo, Bar ], owner: Baz }
+    - { amount: 1000, parties: [ Baz ], owner: Bar }
+    - { amount: 1, parties: [ Foo ], owner: Bar }
+    - { amount: 44.23, parties: [ Bar, Foo, Baz ], owner: Foo }
